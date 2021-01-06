@@ -1,0 +1,425 @@
+body{
+    margin: 0%;
+    width: 100%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.firstdiv{
+    background-color: rgba(75, 75, 93, 0.85);
+    background-image: url(./banner.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    opacity: 0.9;
+    background-attachment: fixed;    
+}
+
+ 
+.topnav{
+    display: flex;
+    padding-top: 10vh;
+    
+   }
+    a{
+       text-decoration: none;
+       padding-left: 2vw;
+       color: white;
+   }
+   .topnavname{
+       margin-left: 5vw;
+       
+
+   }
+   .topnavs{
+      margin-left: 55vw;
+      
+      
+   }
+   .firstdiv hr{
+       margin-top: 10vh;
+       width: 85%;
+       border: rgba(255, 255, 255, 0.2) solid 1px;
+   }
+   .headerdiv{
+       text-align: center;
+   }
+   
+   .headerdiv h1{
+       text-align: center;
+       padding-top: 5vh;
+       color: white;   
+       font-size: 60px;
+   }
+   .headricons{
+    margin-left: 5vw;
+    margin-top: 10vh;
+    display: flex;
+    flex: 1;
+    margin-bottom: 5vh;
+    flex-wrap: wrap;
+}
+.icon-and-details1{
+    margin-left: 10%;
+    text-align: center;
+    height: 30vh;
+    width: 27%;
+    border-right: rgba(255, 255, 255, 0.55) solid 1px;
+
+}
+.icon-and-details2{
+    text-align: center;
+    height: 30vh;
+    width: 27%;
+    border-left: rgba(255, 255, 255, 0.55) solid 1px;
+    border-right: rgba(255, 255, 255, 0.55) solid 1px;
+}
+.icon-and-details3{
+    height: 30vh;
+    width: 27%;
+    text-align: center;
+    border-left: rgba(255, 255, 255, 0.55) solid 1px;
+}
+.icon-and-details1 i,.icon-and-details2 i,.icon-and-details3 i{
+    font-size:50px;
+    color: #6cc091;
+}
+.icon-and-details1 h3,.icon-and-details2 h3,.icon-and-details3 h3{
+    font-size:30px;
+    font-weight: 400;
+     color: white;
+}
+.icon-and-details1 p,.icon-and-details2 p,.icon-and-details3 p{
+    font-size: large;
+    color: rgba(255, 255, 255, 0.55);
+}
+.headerdiv button{
+height: 7vh;
+width: 17%;
+background-color: transparent;
+border-radius: 25px;
+color: white;
+outline: none;
+border: solid 5px #6cc091;
+}
+.secondbox{
+    height: 80vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    padding-top: 40vh;
+}
+.secondboxdiv1{
+    margin-left: 10vw;
+    max-width: 35%;
+    text-align: center ;
+    
+}
+.secondboxdiv1 img{
+    border-radius: 50%;
+}
+.secondboxdiv2{
+    margin-left: 10vw;
+    max-width: 35%;
+    text-align: center ;
+
+}
+.secondboxdiv2 img{
+    border-radius: 50%;
+}
+.secondboxdiv1 button{
+    height: 7vh;
+width: 15vw;
+background-color: transparent;
+border-radius: 25px;
+outline: none;
+border: solid 5px #6cc091;
+}
+.secondboxdiv2 button{
+    height: 7vh;
+width: 15vw;
+background-color: transparent;
+border-radius: 25px;
+outline: none;
+border: solid 5px #6cc091;
+}
+ .input-details-div{
+     background-color:#6cc091 ;
+     height: 100vh;
+     width: 100%;
+     text-align: center;
+     color: white;
+     padding-top: 10vh;
+     margin-bottom: 0vh;
+     font-size: large;
+ }
+ .inputbox{
+     display: flex;
+     padding-top: 10vh;
+     margin-left: 7%;
+ }
+ #inputname{
+     height: 7vh;
+     width: 41vw;
+ }
+ #inputmail{
+    height: 7vh;
+    width: 41vw;
+    margin-left: -4vw;
+    background-color: transparent;
+    border: solid 1px #bbebcf;
+
+ }  
+ .inputbox label{
+     margin-top: -5vh;
+     margin-left: 1vw;
+ }
+ #lab2{
+     margin-left: 3vw;
+ }
+ .inputbox input{
+     margin-left: -3vw;
+     outline: none;
+     border-radius:10px ;
+     background-color: transparent;
+     border: solid 1px #bbebcf;
+     margin-bottom: 4vh;
+
+ }
+ .input-details-div textarea{
+     outline: none;
+     width: 84.5vw;
+     height: 25vh;
+     margin-left: 3vw;
+     margin-bottom: 5vh;
+     background-color: transparent;
+     border: solid 1px #bbebcf; 
+    margin-top: 2vh;
+    }
+ #lab3{
+     margin-left: -78vw;
+ }
+ .input-details-div button{
+        height: 7vh;
+    width: 15vw;
+    background-color: transparent;
+    border-radius: 25px;
+    color: white;
+    outline: none;
+    border: solid 3px white;margin-bottom: 3vh;
+    
+ }
+ .input-details-div p{
+     color:#bbebcf ;
+ }
+ @media screen and (max-width: 400px) {
+    
+    .topnav{
+        display: block;
+        padding-top: 2vh;
+        
+       }
+       .topnavname a{
+        text-decoration: none;
+        padding-left: 2vw;
+       }
+        .topnavs a{
+           text-decoration: none;
+           padding-left: 3vw;
+           color: white;
+       }
+       .topnavname{
+           text-align: center;           
+           margin-bottom: 2vh;          
+    
+       }
+       .topnavs{
+        text-align: center;
+          margin-left: 1vw;
+          
+          
+       }
+       .firstdiv hr{
+           margin-top: 3vh;
+           
+       }
+       .headerdiv{
+        text-align: center;
+    }
+    
+    .headerdiv h1{
+        text-align: center;
+        padding-top: 1vh;
+        color: white;   
+        font-size: 30px;
+    }
+    .icon-and-details1{
+        margin-left: 0%;
+        text-align: center;
+        height: 20vh;
+        width: 100%;
+        border: none;   
+    }
+    .icon-and-details2{
+        text-align: center;
+        height: 20vh;
+        width: 100%;
+        border: none;
+
+       
+    }
+    .icon-and-details3{
+        height: 20vh;
+        width: 100%;
+        text-align: center;
+        border: none;
+
+    }
+    .icon-and-details1 i,.icon-and-details2 i,.icon-and-details3 i{
+        font-size:25px;
+        color: #6cc091;
+    }
+    .icon-and-details1 h3,.icon-and-details2 h3,.icon-and-details3 h3{
+        font-size:20px;
+        font-weight: 200;
+         color: white;
+    }
+    .icon-and-details1 p,.icon-and-details2 p,.icon-and-details3 p{
+        font-size: large;
+    }
+    .headerdiv button{
+    height: 5vh;
+    width: 30%;
+    background-color: transparent;
+    border-radius: 25px;
+    outline: none;
+    color: #6cc091;
+    border: solid 3px #6cc091;
+    }
+    .headricons{
+        margin-top: 2vh;
+        display: block;
+        flex: 1;
+        margin-bottom: 3vh;
+        flex-wrap: wrap;
+
+ }
+ .secondbox{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: block;
+    padding-top: 2vh;
+}
+.secondboxdiv1{
+    margin-left: 0vw;
+    max-width: 100%;
+    text-align: center ;
+    
+}
+.secondboxdiv1 img{
+    border-radius: 50%;
+}
+.secondboxdiv2{
+    margin-left: 0vw;
+    max-width: 100%;
+    text-align: center ;
+
+}
+.secondboxdiv2 img{
+    border-radius: 50%;
+}
+.secondboxdiv1 button{
+    height: 5vh;
+width: 35vw;
+background-color: transparent;
+border-radius: 25px;
+outline: none;
+border: solid 5px #6cc091;
+margin-bottom: 3vh;
+}
+.secondboxdiv2 button{
+    height: 5vh;
+width: 35vw;
+background-color: transparent;
+border-radius: 25px;
+outline: none;
+border: solid 5px #6cc091;
+}
+.input-details-div{
+    background-color:#6cc091 ;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 3vh;
+    margin-bottom: 0vh;
+    font-size: large;
+}
+.input-details-div h1{
+    font-size:40px;
+    margin: 0%;
+}
+
+.inputbox{
+    display: block;
+    padding-top: 2vh;
+    margin-left: 5%;
+}
+#inputname{
+    height: 7vh;
+    width: 90%;
+}
+#inputmail{
+   height: 7vh;
+   width: 90%;
+   background-color: transparent;
+   border: solid 1px #bbebcf;
+
+}  
+.inputbox label{
+    margin-top: -5vh;
+    margin-left: 1vw;
+}
+#lab1{
+    margin-right: 90vw;
+}
+#lab2{
+    margin-right: 90vw;
+}
+.inputbox input{
+    margin-top: 2vh;
+    margin-left: -2vw;
+    outline: none;
+    border-radius:10px ;
+    background-color: transparent;
+    border: solid 1px #bbebcf;
+    margin-bottom: 4vh;
+
+}
+.input-details-div textarea{
+    outline: none;
+    width: 84.5vw;
+    height: 25vh;
+    margin-left: 3vw;
+    margin-bottom: 5vh;
+    background-color: transparent;
+    border: solid 1px #bbebcf; 
+   margin-top: 2vh;
+   }
+#lab3{
+    margin-left: -60vw;
+}
+.input-details-div button{
+       height: 7vh;
+   width: 35vw;
+   background-color: transparent;
+   border-radius: 25px;
+   color: white;
+   outline: none;
+   border: solid 3px white;margin-bottom: 3vh;
+   
+}
+.input-details-div p{
+    color:#bbebcf ;
+}
+ }  

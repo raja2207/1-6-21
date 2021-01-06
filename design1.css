@@ -1,0 +1,562 @@
+body{
+    margin: 0%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.topimg{
+    background-image:url(./img-05.jpg) ;
+   height: 80vh;
+   width: 100%;
+    background-size: cover;
+    color: white;
+    }
+.topimagecondect{
+    text-align: center;
+    padding-top: 15vh;
+}
+.topimagecondect h1{
+    font-size: 90px;
+    margin-bottom: 1vh;
+}
+.topimagecondect p{
+    margin-bottom: 2vh;
+}
+#inputbutton{
+    width: 10vw;
+    height: 7vh;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: white solid 1px;
+    border-radius: 4px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+#inputbutton a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    
+}
+.navbtn{
+    display: flex;
+    float: right;
+    margin-right: 10vh;
+    margin-top: 1vh;
+}
+#btn2,#btn1{
+    height: 7vh;
+    width: 10vw;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: white solid 1px;
+    border-radius: 1%;
+    box-sizing: content-box;
+    font-size: medium;
+}
+#btn1{
+    border: none;
+}
+#btn2:hover{
+    background-color: lightgreen;
+    border: none;
+}
+.seconddiv{
+    text-align: center;   
+    margin-top: 10vh;
+    
+}
+.seconddiv h2{
+    font-size: 50px;
+}
+.seconddiv hr{
+    width: 8vw;
+    margin: auto;
+    border: solid #66c0b3 1.5px;
+    background-color: #66c0b3;
+}
+.d-flex{
+    margin-left: 5vw;
+    margin-top: 10vh;
+    display: flex;
+    flex: 1;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+.card{
+    width: 30%;
+    height: 40vh;
+}
+.card i{
+font-size: xx-large;
+}
+.insidecard h3{
+    font-size: 30px;
+
+}
+.insidecard p{
+    text-align: left;
+    font-size: large;
+}
+.centerimg{
+    background-color: #eee;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+}
+.img{
+    height: 100vh;
+    width: 50%;
+    background-image: url(./img-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.imgcontect{
+    height: 100vh;
+    width: 50%;
+    padding-left:7vw ;
+}
+.imgcontect h2{
+    font-family: Abril Fatface,Times New Roman,Times,serif;
+    font-weight: 500px;
+    line-height: 1.1;
+    font-size: 50px;
+    
+}
+.imgcontect h3{
+    font-size: 24px;
+    
+}
+.imgcontect p{
+    margin: 0 0 11px;
+    font-size: larger;
+    max-width: 80%;
+    opacity: 0.7;
+}
+.centertext{
+    width: 10vw;
+    height: 100vh;
+    color: white;
+    position: relative;
+    margin-top: -100vh;
+    margin-left: 43vw;
+    word-break: break-all;
+    font-size: 45px;
+}
+.secimgs {
+    text-align: center;
+
+}
+.secimgs h2{
+    font-size: 50px;
+    font-weight: 500px;
+}
+.secimgs hr{
+    width: 10vw;
+    border: #66c0b3 solid 2px;
+}
+.d-flex1{
+    margin-left: 8vw;
+    margin-top: 10vh;
+    display: flex;
+    flex: 1;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+.card1{
+    width: 30%;
+    height: 60vh;
+}
+.card1 img{
+    height: 40vh;
+    width: 25vw;
+    padding-left: 1vw;
+    background-size: cover;
+}
+.inputdetails{
+    margin-top: 10vh;
+    text-align: center;
+}
+.inputdetails h1{
+    font-size: 50px;
+}
+.inputdetails hr{
+    width: 10vw;
+    border: #66c0b3 solid 2px;
+}
+.inputbox{
+    margin-top: 10vh;
+    
+}
+.inputbox input{
+    width: 25%;
+    height: 3vh;
+    padding: 10px 12px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    outline: none;
+    font-size: large;
+
+    
+}
+#inputmail{
+    margin-left: 2vw;
+}
+.inputbox textarea{
+    margin-top: 3vh;
+    margin-left: 5vw;
+    height: 20vh;
+    width: 56%;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    outline: none;
+    font-style: normal;
+    font-size: x-large;
+}
+.checkbox{
+    margin-left: -65vh;
+    font-size: large;
+    cursor: pointer;
+}
+.lastbtn{
+     display: flex;
+    margin-left: 18vw;
+    margin-top: 2vh;
+    margin-bottom: 20vh;
+}
+.lastbtn .btn1{
+    
+    height: 6vh;
+    width: 10vw;
+    outline: none; 
+    color: white;
+    background-color: #8acfc5;
+    border: #8acfc5 solid 1px;
+}
+.lastbtn .btn2{
+    margin-left: 2vw;
+    height: 6vh;
+    width: 8vw;
+    outline: none;
+    border: #8acfc5 solid 1px;
+}
+.btn2:hover{
+    color: white;
+    background-color: #8acfc5;
+}
+.fooder{
+    background-color: #8acfc5;
+    height:40vh;
+    width: 100%;
+    display: flex;
+    font-size: medium;
+    color: white;
+    padding-top: 10vh;
+    
+}
+.fooder1 h4{
+    font-size: x-large;
+}
+.fooder2 h4{
+    font-size: x-large;
+}
+.fooder3 h4{
+    font-size: x-large;
+}
+.fooder1,.fooder2 h4{
+    margin-left: 10vw;
+    max-width: 40vh;
+    text-align: left;
+}
+.fooder1,.fooder2 p{
+    margin-left: 10vw;
+    max-width: 40vh;
+    text-align: left;
+}
+.fooder3 h4,input,button{
+    margin-left: 5vw;
+    
+}
+.fooder2 span{
+    margin-left: 2vw;
+}
+.fooder3 input{
+    height: 5vh;
+    width: 20vw;
+    outline: none;
+    border: none;
+    box-sizing: content-box;
+}
+.fooder3 button{
+    margin-left: -0.3vw;
+    height: 5vh;
+    width: 3vw;
+    box-sizing:content-box;
+    outline: none;
+    border:white solid 1px ;
+    background-color: transparent;
+
+}
+.fooder3 button:hover{
+    background-color: #fff;
+    color: aquamarine;
+    border-left-color:  aquamarine;
+    
+}
+@media screen and (max-width: 400px) {
+        .navbtn{
+            margin-left: 10vh;
+            margin-top: 1vh;
+        }
+        #btn2,#btn1{
+            height:6vh;
+            width: 100%;
+            background-color: transparent;
+            color: white;
+            outline: none;
+            border: white solid 1px;
+            border-radius: 1%;
+            box-sizing: content-box;
+            font-size: small;
+        }
+        #btn1{
+            border: none;
+        }
+        #btn2:hover{
+            background-color: lightgreen;
+            border: none;
+        }
+        #inputbutton{
+           margin-top: 5vh;
+            width: 30vw;
+            height: 7vh;
+            color: white;
+            background-color: transparent;
+            outline: none;
+            border: white solid 1px;
+            border-radius: 4px;
+            display: inline-block;
+            box-sizing: border-box;
+        }
+        #inputbutton a{
+            text-decoration: none;
+            color: white;
+            font-size: medium;
+            
+        }
+        .seconddiv h2{
+            font-size: 40px;
+        }
+        .seconddiv hr{
+            width: 8vw;
+            margin: auto;
+            border: solid #66c0b3 1.5px;
+            background-color: #66c0b3;
+        }
+        .d-flex{
+            margin-left: 5vw;
+            margin-top: 10vh;
+            display: flex;
+            flex: 1;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+        .card{
+            width: 100%;
+            height: 40vh;
+        }
+        .card i{
+        font-size: xx-large;
+        }
+        .insidecard h3{
+            font-size: 20px;
+        
+        }
+        .insidecard p{
+            text-align: left;
+            font-size: medium;
+        }
+        .centerimg{
+            background-color: #eee;
+            
+        }
+        .img{
+            display: none;
+        }
+        .imgcontect{
+            text-align: center;
+            height: 100vh;
+            width: 100%;
+            
+            
+        }
+        .imgcontect h2{
+            font-family: Abril Fatface,Times New Roman,Times,serif;
+            font-weight: 300px;
+            font-size: 40px;
+            
+        }
+        .imgcontect h3{
+            font-size: 24px;
+            
+        }
+        .imgcontect p{
+            text-align: center;
+            font-size: large;
+            opacity: 0.7;
+            max-width: 100%;
+             
+        }
+        .centertext{
+            display: none;
+        }
+        
+        .secimgs h2{
+            font-size: 30px;
+            font-weight: 300px;
+        }
+        .secimgs hr{
+            width: 6vw;
+            
+        }
+        
+        .card1{
+            width: 100%;
+            height: 60vh;
+        }
+        .card1 img{
+            height: 40vh;
+            width: 70%;
+            padding-left: 1vw;
+            background-size: cover;
+        }
+        .inputdetails{
+            margin-top: 10vh;
+            text-align: center;
+        }
+        .inputdetails h1{
+            font-size: 50px;
+        }
+        .inputdetails hr{
+            width: 10vw;
+            border: #66c0b3 solid 2px;
+        }
+        .inputbox{
+            margin-top: 10vh;
+            
+        }
+        .inputbox input{
+            width: 70%;
+            height: 3vh;
+            padding: 10px 12px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 2px;
+            outline: none;
+            font-size: medium;
+        
+            
+        }
+        #inputmail{
+            margin-top: 2vh;
+            margin-left: 5vw;
+        }
+        .inputbox textarea{
+            margin-top: 3vh;
+            margin-left: 5vw;
+            height: 20vh;
+            width: 75%;
+            background-color: #fff;
+            background-image: none;
+            border: 1px solid #ddd;
+            border-radius: 2px;
+            outline: none;
+            font-style: normal;
+            
+        }
+        .checkbox{
+            margin-left: 0vh;
+            font-size: medium;
+            cursor: pointer;
+        }
+        .lastbtn{
+             display: flex;
+            margin-left: 10vw;
+            margin-top: 2vh;
+            margin-bottom: 20vh;
+        }
+        .lastbtn .btn1{            
+            height: 6vh;
+            width: 18vw;
+        }
+        .lastbtn .btn2{
+            
+            height: 6vh;
+            width: 15vw;
+            
+        }
+        .fooder{
+            background-color: #8acfc5;
+            height:70vh;
+            width: 100%;
+            display: block;
+            font-size: medium;
+            color: white;
+            padding-top: 6vh;
+            
+        }
+        .fooder1 h4{
+            font-size: x-large;
+        }
+        .fooder2 h4{
+            font-size: x-large;
+        }
+        .fooder3 h4{
+            font-size: x-large;
+        }
+        .fooder1,.fooder2 h4{
+            margin-left: 10vw;
+            max-width: 100%;
+            text-align: left;
+        }
+        .fooder1,.fooder2 p{
+            margin-left: 10vw;
+            max-width: 100%;
+            text-align: left;
+        }
+        .fooder3 h4,input,button{
+            margin-left: 5vw;
+            
+        }
+        .fooder2 span{
+            margin-left: 2vw;
+        }
+        .fooder3 input{
+            height: 5.5vh;
+            width: 70vw;
+            outline: none;
+            border: none;
+            box-sizing: content-box;
+        }
+        .fooder3 button{
+            margin-left: -1vw;
+            height: 5vh;
+            width: 6vw;
+            box-sizing:content-box;
+            outline: none;
+            border:white solid 0.5px ;
+            background-color: transparent;
+        
+        }
+             
+               
+    }
+
+
